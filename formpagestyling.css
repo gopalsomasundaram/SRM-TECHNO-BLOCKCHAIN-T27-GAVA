@@ -1,0 +1,68 @@
+ /* center the form */
+ body {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+/* style the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+h1{
+  text-align: center;
+  color: #4CAF50;
+  font-size: 70px;
+  border: 1px;
+  
+}
+
+/* style the labels */
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* style the inputs */
+input[type="number"],
+input[type="text"] {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.returnedData{
+  font-size: 20px;
+}
+
+/* style the button */
+button[type="button"] {
+  background-color: #4CAF50; /* green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+/* style the result container */
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+}
