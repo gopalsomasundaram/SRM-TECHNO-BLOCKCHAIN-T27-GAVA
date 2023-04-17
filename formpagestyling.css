@@ -8,6 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: black;
+  background-color: black;
 }
 
 form {
@@ -141,4 +142,5 @@ button:hover{
   background-color: #4CAF50;
   font-size: 25px;
   transition: 0.9s;
+  
 }
