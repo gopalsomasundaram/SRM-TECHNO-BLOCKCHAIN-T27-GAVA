@@ -8,7 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: black;
-  background-color: black;
+  background-color: #00132eea;
 }
 
 form {
@@ -139,8 +139,18 @@ label.light {
 } */
 
 button:hover{
-  background-color: #4CAF50;
   font-size: 25px;
   transition: 0.9s;
   
+}
+.returnedData{
+ color: chartreuse;
+ align-items: center;
+ text-align: center;
+ border-width: 12px;
+ width: 300px;
+ border: 15px solid chartreuse;
+ padding: 50px;
+ margin: 20px;
+ display: flex;
 }
