@@ -149,7 +149,7 @@ button:hover{
  text-align: center;
  border-width: 12px;
  width: 300px;
- border: 15px solid chartreuse;
+ justify-content: center;
  padding: 50px;
  margin: 20px;
  display: flex;
